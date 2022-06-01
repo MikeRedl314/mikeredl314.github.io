@@ -94,15 +94,15 @@
   .formular input{
     margin-bottom: 2rem;
     padding: 1rem;
-    background: white;
+    background-color: white;
     border: 1px solid black;
     display:block;
     width: 100%;
-    color:#010101;
+    
   }
   .formular textarea{
     padding: 1rem;
-    background: white;
+    background-color: white;
     border: 1px solid black;
     height: 6rem;
     margin-bottom: 2rem;
@@ -121,6 +121,10 @@
     background: #637de6;
     color:white;
     display:block;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
   }
 
 /*ENDE FORMULAR*/
